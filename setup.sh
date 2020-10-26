@@ -5,7 +5,7 @@ sed -i 's/[#]*PasswordAuthentication yes/PasswordAuthentication no/g' /etc/ssh/s
 
 systemctl restart sshd
 
-curl -o /usr/local/sbin/apt-get https://raw.githubusercontent.com/vgiannoul/hetzner-cloud-init/master/apt-get
+curl -o /usr/local/sbin/apt-get https://raw.githubusercontent.com/vgiannoul/hetzner-cloud-init/main/apt-get
 
 chmod +x /usr/local/sbin/apt-get
 
